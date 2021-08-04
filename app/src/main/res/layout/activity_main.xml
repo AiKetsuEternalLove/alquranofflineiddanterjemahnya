@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-7744888115839081/1224360563"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adView">
+
+            <Button
+                android:id="@+id/btnMukodimah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="Mukodimah"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/row1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnMukodimah">
+
+                <Button
+                    android:id="@+id/btnJuz1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Juz 1" />
+
+                <Button
+                    android:id="@+id/btnJuz2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 2" />
+
+                <Button
+                    android:id="@+id/btnJuz3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 3" />
+
+                <Button
+                    android:id="@+id/btnJuz4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 4" />
+
+                <Button
+                    android:id="@+id/btnJuz5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 5" />
+
+                <Button
+                    android:id="@+id/btnJuz6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btnJuz7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 7"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz6"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz6" />
+
+                <Button
+                    android:id="@+id/btnJuz8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 8"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz7"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz7" />
+
+                <Button
+                    android:id="@+id/btnJuz9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 9"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz8"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz8" />
+
+                <Button
+                    android:id="@+id/btnJuz10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 10"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz9"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toStartOf="@+id/row3"
+                app:layout_constraintStart_toEndOf="@+id/row1"
+                app:layout_constraintTop_toTopOf="@+id/row1">
+
+                <Button
+                    android:id="@+id/btnJuz11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Juz 11"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btnJuz12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 12"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz11"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz11" />
+
+                <Button
+                    android:id="@+id/btnJuz13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 13"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz12"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz12" />
+
+                <Button
+                    android:id="@+id/btnJuz14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 14"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz13"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz13" />
+
+                <Button
+                    android:id="@+id/btnJuz15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 15"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz14"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz14" />
+
+                <Button
+                    android:id="@+id/btnJuz16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 16"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btnJuz17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 17"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz16"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz16" />
+
+                <Button
+                    android:id="@+id/btnJuz18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 18"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz17"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz17" />
+
+                <Button
+                    android:id="@+id/btnJuz19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 19"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz18"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz18" />
+
+                <Button
+                    android:id="@+id/btnJuz20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 20"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz19"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz19" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/row2">
+
+                <Button
+                    android:id="@+id/btnJuz21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Juz 21"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btnJuz22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 22"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz21"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz21" />
+
+                <Button
+                    android:id="@+id/btnJuz23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 23"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz22"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz22" />
+
+                <Button
+                    android:id="@+id/btnJuz24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 24"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz23"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz23" />
+
+                <Button
+                    android:id="@+id/btnJuz25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 25"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz24"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz24" />
+
+                <Button
+                    android:id="@+id/btnJuz26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 26"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btnJuz27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 27"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz26"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz26" />
+
+                <Button
+                    android:id="@+id/btnJuz28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 28"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz27"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz27" />
+
+                <Button
+                    android:id="@+id/btnJuz29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 29"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz28"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz28" />
+
+                <Button
+                    android:id="@+id/btnJuz30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Juz 30"
+                    app:layout_constraintStart_toEndOf="@+id/btnJuz29"
+                    app:layout_constraintTop_toTopOf="@+id/btnJuz29" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

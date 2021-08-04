@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Al Quran Offline ID & Tafsir Terjemahnya Indonesia"

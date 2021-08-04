@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.iketutsy.alquranindonesiadanterjemahnya",
+  "variantName": "processReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 1,
+      "versionName": "1",
+      "outputFile": "Al Quran Offline ID \u0026 Tafsir Terjemahnya Indonesia_Release_1_040821_1702.apk"
+    }
+  ]
+}

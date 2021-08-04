@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iketutsy.alquranindonesiadanterjemahnya">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlQuranIndonesiaDanTerjemahnya">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".JuzSatuActivity" android:label="Juz 1" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaActivity" android:label="Juz 2" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzTigaActivity" android:label="Juz 3" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzEmpatActivity" android:label="Juz 4" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzLimaActivity" android:label="Juz 5" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzEnamActivity" android:label="Juz 6" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzTujuhActivity" android:label="Juz 7" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDelapanActivity" android:label="Juz 8" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzSembilanActivity" android:label="Juz 9" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzSepuluhActivity" android:label="Juz 10" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzSebelasActivity" android:label="Juz 11" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaBelasActivity" android:label="Juz 12" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzTigaBelasActivity" android:label="Juz 13" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzEmpatBelasActivity" android:label="Juz 14" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzLimaBelasActivity" android:label="Juz 15" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzEnamBelasActivity" android:label="Juz 16" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzTujuhBelasActivity" android:label="Juz 17" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDelapanBelasActivity" android:label="Juz 18" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzSembilanBelasActivity" android:label="Juz 19" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaPuluhActivity" android:label="Juz 20" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaPuluhSatuActivity" android:label="Juz 21" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaPuluhDuaActivity" android:label="Juz 22" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaPuluhTigaActivity" android:label="Juz 23" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaPuluhEmpatActivity" android:label="Juz 24" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaPuluhLimaActivity" android:label="Juz 25" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaPuluhEnamActivity" android:label="Juz 26" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaPuluhTujuhActivity" android:label="Juz 27" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaPuluhDelapanActivity" android:label="Juz 28" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzDuaPuluhSembilanActivity" android:label="Juz 29" android:parentActivityName=".MainActivity" />
+        <activity android:name=".JuzTigaPuluhActivity" android:label="Juz 30" android:parentActivityName=".MainActivity" />
+
+
+        <activity
+            android:name=".MukodimahActivity"
+            android:label="Juz 1"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7744888115839081~2854519898" />
+    </application>
+
+</manifest>
